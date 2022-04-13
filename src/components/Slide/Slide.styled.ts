@@ -7,7 +7,7 @@ export const SlideWrapper = styled.div`
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: min-content;
-  padding: 64px 60px 84px 60px;
+  padding: 64px 60px 100px 60px;
   background-size: contain;
   transition: ease all .5s;
   justify-items: center;
@@ -70,30 +70,36 @@ export const SlideTextContent = styled.div`
   flex-direction: column;
   position: relative;
   margin-top: 57px;
+  max-width: 500px;
 
   @media (min-width: 778px) {
     margin-top: 67px;
-  }
-
-  @media (min-width: 778px) {
+    margin-right: -15rem;
     align-self: center;
   }
+
+  @media (min-width:1128px) {
+    max-width: 700px;
+  } 
 `;
 
 export const UserDescription = styled.p`
   font-style: normal;
   font-weight: 300;
+  color: #202046;
   font-size: 18px;
   line-height: 24px;
   position: relative;
   padding-top: 2rem;
-  background: url(${patternQuotesSvg}) top center no-repeat;
+  background: url(${patternQuotesSvg}) 50% 0  no-repeat;
 
   @media (min-width: 778px) {
     font-weight: 300;
     font-size: 20;
     line-height: 44px;
     text-align: left;
+    background: url(${patternQuotesSvg}) 10% 0  no-repeat;
+
   }
 
   @media (min-width: 1128px) {
@@ -128,6 +134,7 @@ export const UserName = styled.span`
   font-weight: 700;
   font-size: 15px;
   line-height: 20px;
+  color: #202046;
 
   @media (min-width: 778px) {
     line-height: 38px;
