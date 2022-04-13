@@ -7,8 +7,8 @@ export const SlideWrapper = styled.div`
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: min-content;
-  padding: 64px 60px 0 60px;
-  background-size: 90%;
+  padding: 64px 60px 84px 60px;
+  background-size: contain;
   transition: ease all .5s;
   justify-items: center;
 

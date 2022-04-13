@@ -9,10 +9,10 @@ export const ButtonsWrapper = () => {
 
   return (
     <SC.ButtonsWrapper>
-      <Button onClick={goToPrevPicture}>
+      <Button onClick={goToPrevPicture} ariaLabel="go to prev slide">
         <PrevIcon />
       </Button>
-      <Button onClick={goToNextPicture}>
+      <Button onClick={goToNextPicture} ariaLabel="go to next slide">
         <NextIcon />
       </Button>
     </SC.ButtonsWrapper>
