@@ -4,7 +4,6 @@ import patternQuotesSvg from "../../assets/pattern-quotes.svg";
 
 export const SlideWrapper = styled.div`
   background: url(${bgPattern}) top center no-repeat;
-  height: 100vh;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: min-content;
