@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/fm-bootcamp-testimonial/static/js/main.0f1f0355.js",
+    "main.js": "/fm-bootcamp-testimonial/static/js/main.228e60b5.js",
     "static/js/787.de7a6c58.chunk.js": "/fm-bootcamp-testimonial/static/js/787.de7a6c58.chunk.js",
     "static/media/Inter-Light.ttf": "/fm-bootcamp-testimonial/static/media/Inter-Light.58a136ec3193fa8a63e5.ttf",
     "static/media/image-john.jpg": "/fm-bootcamp-testimonial/static/media/image-john.5253a557aa7d00d8466f.jpg",
@@ -11,10 +11,10 @@
     "static/media/pattern-curve.svg": "/fm-bootcamp-testimonial/static/media/pattern-curve.05698a95740cb41f8c3c2cedd8ab273a.svg",
     "static/media/icon-prev.svg": "/fm-bootcamp-testimonial/static/media/icon-prev.f72bba8e1f8b7df258c2f5d918944b16.svg",
     "static/media/icon-next.svg": "/fm-bootcamp-testimonial/static/media/icon-next.0aa189dbfa66ca43c7a2b7c1915624e0.svg",
-    "main.0f1f0355.js.map": "/fm-bootcamp-testimonial/static/js/main.0f1f0355.js.map",
+    "main.228e60b5.js.map": "/fm-bootcamp-testimonial/static/js/main.228e60b5.js.map",
     "787.de7a6c58.chunk.js.map": "/fm-bootcamp-testimonial/static/js/787.de7a6c58.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.0f1f0355.js"
+    "static/js/main.228e60b5.js"
   ]
 }
